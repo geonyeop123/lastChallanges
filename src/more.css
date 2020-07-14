@@ -1,0 +1,89 @@
+.more-name {
+  margin-bottom: 13px;
+}
+.pageHeader-my__column-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.phm__column-my-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 45px;
+  font-weight: 700;
+  box-shadow: inset 0px 0px 1.1px rgba(0, 0, 0, 1);
+  border-radius: 30px;
+  margin-right: 8px;
+}
+.phm__column-my-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 45px;
+  box-shadow: inset 0px 0px 1.1px rgba(0, 0, 0, 1);
+  border-radius: 30px;
+}
+.more-kakaopay {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.more-kakaopay__column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  margin: 0 50px;
+}
+.kakaopay__column-kakaopay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 130px;
+  border: 1px solid #b8b8b8;
+  border-radius: 30px;
+}
+.kakaopay-text {
+  margin-bottom: 5px;
+  font-weight: 800;
+}
+.kakaopay-regtext {
+  font-weight: 300;
+}
+.kakaopay-str:nth-child(2),
+.kakaopay-str:nth-child(3) {
+  margin-left: 4px;
+}
+.kakaopay__column-bottom {
+  margin-bottom: 15px;
+}
+.more-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 20px;
+}
+.more-icons-iconlist {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.more-icons-text {
+  margin-top: 15px;
+}
+.more-icon-pointer {
+  position: relative;
+  width: 8px;
+  height: 8px;
+  background-color: red;
+  border-radius: 50%;
+  top: -40px;
+  right: -40px;
+}

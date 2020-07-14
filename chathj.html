@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>현진이</title>
+    <script
+      src="https://kit.fontawesome.com/5dae93e789.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__column">
+        <span class="header__column-icon">
+          <i class="fas fa-signal"></i>
+        </span>
+        <p class="header__column-text">SKT</p>
+        <p class="header__column-text">LTE</p>
+      </div>
+      <div class="header__column">
+        <p class="header__column-timestamp">오후 7:43</p>
+      </div>
+      <div class="header__column">
+        <span class="header__column-icon">
+          <i class="fas fa-location-arrow"></i>
+        </span>
+        <p class="header__column-text">100%</p>
+        <span class="header__column-icon">
+          <i class="fas fa-battery-full"></i>
+        </span>
+      </div>
+    </header>
+    <header class="pageHeader">
+      <div class="pageHeader-header">
+        <div class="pageHeader-header__column ph__column">
+          <a href="chats.html" class="backbtn">
+            <span class="ph__column-backbtn">
+              <i class="fas fa-chevron-left">1</i>
+            </span>
+          </a>
+        </div>
+        <div class="pageHeader-header__column ph__column">
+          <p class="ph__column-title">설정</p>
+        </div>
+        <div class="pageHeader-header__column ph__column">
+          <span class="ph__column-icon">
+            <i class="fas fa-search"></i>
+          </span>
+          <span class="ph__column-icon">
+            <i class="fas fa-bars"></i>
+          </span>
+        </div>
+      </div>
+    </header>
+    <main class="chat">
+      <ul class="chat-incommingMsg incomingMsg">
+        <li class="incommingMsg__column">
+          <div class="incommingMsg__profile friend__profile">
+            <img src="src/images/hyunjin.jpg" class="m-picture" />
+            <div class="incommingMsg__status friend__status">
+              <p class="incommingMsg__name friend__name">현진이</p>
+              <div class="incommingMsg__bubble">뭐하구있어요 건엽아</div>
+            </div>
+            <p class="chat__timestamp">오후 7:40</p>
+          </div>
+        </li>
+        <li class="sendMsg__column">
+          <div class="sendMsg__profile friend__profile">
+            <div class="sendMsg__status friend__status">
+              <p class="chat__timestamp">오후 7:42</p>
+              <div class="sendMsg__bubble">공부하고 있어요 ㅠㅠ</div>
+            </div>
+          </div>
+        </li>
+        <li class="incommingMsg__column">
+          <div class="incommingMsg__profile friend__profile">
+            <img src="src/images/hyunjin.jpg" class="m-picture" />
+            <div class="incommingMsg__status friend__status">
+              <p class="incommingMsg__name friend__name">현진이</p>
+              <div class="incommingMsg__bubble">에구 ㅠㅠ</div>
+              <div class="incommingMsg__bubble secondbb">고생하네에 ㅠㅜㅠ</div>
+              <div class="incommingMsg__bubble secondbb">
+                사랑해용 엽이얌 ㅎㅎㅎ
+              </div>
+            </div>
+            <p class="chat__timestamp">오후 7:43</p>
+          </div>
+        </li>
+      </ul>
+      <div class="sendMsgBox">
+        <div class="sendMsgBox__column-left">
+          <span class="sendMsgBox__column-icon">
+            <i class="far fa-plus-square"></i>
+          </span>
+        </div>
+        <div class="sendMsgBox__column-center">
+          <input type="text" class="sendMsgBox__inputbox" />
+        </div>
+        <div class="sendMsgBox__column-right">
+          <span class="sendMsgBox__column-icon">
+            <i class="far fa-smile-wink"></i>
+          </span>
+          <span class="sendMsgBox__column-icon">
+            <i class="fas fa-microphone"></i>
+          </span>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

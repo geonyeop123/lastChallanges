@@ -1,0 +1,15 @@
+.search-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.search-header-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.search-header-bigicon {
+  font-size: 30px;
+  margin-bottom: 15px;
+}

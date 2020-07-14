@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sharp</title>
+    <script
+      src="https://kit.fontawesome.com/5dae93e789.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__column">
+        <span class="header__column-icon">
+          <i class="fas fa-signal"></i>
+        </span>
+        <p class="header__column-text">SKT</p>
+        <p class="header__column-text">LTE</p>
+      </div>
+      <div class="header__column">
+        <p class="header__column-timestamp">오후 7:43</p>
+      </div>
+      <div class="header__column">
+        <span class="header__column-icon">
+          <i class="fas fa-location-arrow"></i>
+        </span>
+        <p class="header__column-text">100%</p>
+        <span class="header__column-icon">
+          <i class="fas fa-battery-full"></i>
+        </span>
+      </div>
+    </header>
+    <header class="pageHeader">
+      <div class="pageHeader-header">
+        <div class="pageHeader-header__column ph__column">
+          <p class="ph__column-title">친구찾기</p>
+        </div>
+        <div class="pageHeader-header__column ph__column">
+          <span class="ph__column-icon">
+            <i class="fas fa-search"></i>
+          </span>
+          <a href="setting.html" class="goSetting">
+            <span class="ph__column-icon">
+              <i class="fas fa-cog"></i>
+            </span>
+          </a>
+        </div>
+      </div>
+      <div class="pageHeader-header__column ph__column search-header">
+        <div class="search-header-content">
+          <span class="search-header-bigicon">
+            <i class="fas fa-qrcode"></i>
+          </span>
+          <p class="search-header-named">QR Code</p>
+        </div>
+        <div class="search-header-content">
+          <span class="search-header-bigicon">
+            <i class="fas fa-user-plus"></i>
+          </span>
+          <p class="search-header-named">Add by Contacts</p>
+        </div>
+        <div class="search-header-content">
+          <span class="search-header-bigicon">
+            <i class="fas fa-address-book"></i>
+          </span>
+          <p class="search-header-named">Add by ID</p>
+        </div>
+        <div class="search-header-content">
+          <span class="search-header-bigicon">
+            <i class="far fa-envelope"></i>
+          </span>
+          <p class="search-header-named">Invite</p>
+        </div>
+      </div>
+    </header>
+    <main class="search">
+      <ul class="search-recomend recomend">
+        `
+        <li class="recomend-friend">
+          <div class="morefriends-Channel Channel">
+            <div class="Channel-title morefriends-column">
+              <div class="Channel__column">
+                <p class="Channel__column-title g-title">추천친구</p>
+              </div>
+            </div>
+          </div>
+          <ul class="Channel-list">
+            <li class="Channel-friend friend">
+              <div class="friend__column">
+                <div class="friend__profile"></div>
+                <img src="src/images/default.jpg" class="friend__picture" />
+                <div class="friend__status">
+                  <p class="friend__name">김우중</p>
+                </div>
+              </div>
+              <div class="friend__column">
+                <span class="addfriend"> <i class="fas fa-user-plus"></i></span>
+              </div>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </main>
+    <nav class="nav-bar">
+      <a href="friends.html" class="goHtml">
+        <span class="nav-bar-icon">
+          <i class="far fa-user"></i>
+        </span>
+      </a>
+      <a href="chats.html" class="goHtml">
+        <span class="nav-bar-icon nav-bar-commentIcon">
+          <i class="far fa-comment">
+            <div class="icon-newMsg newMsg">4</div>
+          </i>
+        </span></a
+      >
+      <a href="search.html" class="goHtml">
+        <span class="nav-bar-icon"> <i class="fas fa-search"> </i> </span
+      ></a>
+      <a href="more.html" class="goHtml">
+        <span class="nav-bar-icon">
+          <i class="far fa-comment-dots"></i>
+        </span>
+      </a>
+    </nav>
+  </body>
+</html>

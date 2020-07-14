@@ -1,0 +1,67 @@
+.pageHeader-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px;
+  margin-top: 50px;
+  font-size: 25px;
+}
+.pageHeader .ph__column-icon {
+  margin: 0 10px;
+}
+.pageHeader .ph__column-icon:last-child {
+  margin-right: -3px;
+}
+.pageHeader .ph__column-title {
+  font-weight: 800;
+}
+
+.pageHeader .goSetting {
+  color: black;
+}
+.pageHeader .ph__column-icon:hover {
+  cursor: pointer;
+}
+.pageHeader .pageHeader-my {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 30px;
+}
+.pageHeader .pageHeader-my__column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.phm__column-status {
+  margin-left: 15px;
+}
+.friends-name {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+.phm__column-name,
+.bold-name {
+  font-weight: 700;
+}
+.phm__column-staMessage,
+.staMessage {
+  font-size: 16px;
+  opacity: 0.8;
+}
+.phm__column-music,
+.friend-music {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1.8px solid #06ce40;
+  padding: 10px;
+  border-radius: 18px;
+}
+
+.friend-music-icon {
+  color: #06ce40;
+}
+.friend-music-text {
+  margin-right: 10px;
+}

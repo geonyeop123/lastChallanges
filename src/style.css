@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap");
+@import "reset.css";
+@import "header.css";
+@import "pageHeader.css";
+@import "friends.css";
+@import "nav-bar.css";
+@import "search.css";
+@import "more.css";
+* {
+  box-sizing: border-box;
+}
+
+.big-picture {
+  width: 80px;
+  height: 80px;
+  border-radius: 35px;
+}
+.m-picture {
+  width: 60px;
+  height: 60px;
+  border-radius: 23px;
+}
+
+.friend__picture {
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+}

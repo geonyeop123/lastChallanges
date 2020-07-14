@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chats</title>
+    <script
+      src="https://kit.fontawesome.com/5dae93e789.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__column">
+        <span class="header__column-icon">
+          <i class="fas fa-signal"></i>
+        </span>
+        <p class="header__column-text">SKT</p>
+        <p class="header__column-text">LTE</p>
+      </div>
+      <div class="header__column">
+        <p class="header__column-timestamp">오후 7:43</p>
+      </div>
+      <div class="header__column">
+        <span class="header__column-icon">
+          <i class="fas fa-location-arrow"></i>
+        </span>
+        <p class="header__column-text">100%</p>
+        <span class="header__column-icon">
+          <i class="fas fa-battery-full"></i>
+        </span>
+      </div>
+    </header>
+    <header class="pageHeader">
+      <div class="pageHeader-header">
+        <div class="pageHeader-header__column ph__column">
+          <p class="ph__column-title">채팅</p>
+        </div>
+        <div class="pageHeader-header__column ph__column">
+          <span class="ph__column-icon">
+            <i class="fas fa-search"></i>
+          </span>
+          <span class="ph__column-icon">
+            <i class="fas fa-user-plus"></i>
+          </span>
+          <span class="ph__column-icon">
+            <i class="fas fa-music"></i>
+          </span>
+          <a href="setting.html" class="goSetting">
+            <span class="ph__column-icon">
+              <i class="fas fa-cog"></i>
+            </span>
+          </a>
+        </div>
+      </div>
+    </header>
+    <main class="chats">
+      <ul class="chats-chatslist">
+        <a href="chathj.html" class="gochathj">
+          <li class="chats-chatlist chatlist">
+            <div class="chatlist-friendChat friendChat friend">
+              <div class="friendChat__column friend__column">
+                <div class="friendChat__profile friend__profile">
+                  <img src="src/images/hyunjin.jpg" class="m-picture" />
+                  <div class="friendChat__status friend__status">
+                    <p class="friendChat__name friend__name">현진이</p>
+                    <p class="friendChat__staMessage staMessage">
+                      사랑해용 엽이얌 ㅎㅎㅎ
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="friendChat__column friend__column">
+                <div class="friendChat__column-status">
+                  <p class="friendChat__column-timestamp">
+                    오후 7:43
+                  </p>
+                  <div class="friendChat__column-newMsg newMsg">3</div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </a>
+        <li class="chats-chatlist chatlist">
+          <div class="chatlist-friendChat friendChat">
+            <div class="friendChat__column friend__column">
+              <div class="friendChat__profile friend__profile">
+                <img src="src/images/default.jpg" class="m-picture" />
+                <div class="friendChat__status friend__status">
+                  <p class="friendChat__name friend__name">정길영</p>
+                  <p class="friendChat__staMessage staMessage">롤 개재밌누</p>
+                </div>
+              </div>
+            </div>
+            <div class="friendChat__column friend__column">
+              <div class="friendChat__column-status">
+                <p class="friendChat__column-timestamp">
+                  오후 7:25
+                </p>
+                <div class="friendChat__column-newMsg newMsg">1</div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="chats-chatlist chatlist">
+          <div class="chatlist-friendChat friendChat">
+            <div class="friendChat__column friend__column">
+              <div class="friendChat__profile friend__profile">
+                <img src="src/images/default.jpg" class="m-picture" />
+                <div class="friendChat__status friend__status">
+                  <p class="friendChat__name friend__name">이태호</p>
+                  <p class="friendChat__staMessage staMessage">ㅎㅇ</p>
+                </div>
+              </div>
+            </div>
+            <div class="friendChat__column friend__column">
+              <div class="friendChat__column-status">
+                <p class="friendChat__column-timestamp">
+                  오후 7:20
+                </p>
+                <div class="friendChat__column-noMsg noMsg"></div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </main>
+    <nav class="nav-bar">
+      <a href="friends.html" class="goHtml">
+        <span class="nav-bar-icon">
+          <i class="far fa-user"></i>
+        </span>
+      </a>
+      <a href="chats.html" class="goHtml">
+        <span class="nav-bar-icon nav-bar-commentIcon">
+          <i class="fas fa-comment">
+            <div class="icon-newMsg newMsg">4</div>
+          </i>
+        </span></a
+      >
+      <a href="search.html" class="goHtml">
+        <span class="nav-bar-icon"> <i class="fas fa-search"> </i> </span
+      ></a>
+      <a href="more.html" class="goHtml">
+        <span class="nav-bar-icon">
+          <i class="far fa-comment-dots"></i>
+        </span>
+      </a>
+    </nav>
+  </body>
+</html>
